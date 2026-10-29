@@ -1,38 +1,40 @@
-# Flutter Demo App
+# My Weather 🌦️
 
-This is a simple Flutter demo application created to learn the basics of Flutter development and understand how widgets, state management, and UI layout work.
+My Weather is a weather forecasting application built using Flutter and Dart. It uses the OpenWeather API to display current weather information and a 5-day forecast for a searched city.
 
 ## Features
+- Search weather by city name
+- View current temperature and weather conditions
+- Check humidity, wind speed, pressure, and feels-like temperature
+- View a 5-day weather forecast
+- Simple and user-friendly interface
 
-* Built using Flutter and Dart
-* Demonstrates Stateful and Stateless widgets
-* Counter functionality example
-* Simple Material UI interface
+## Technologies Used
+- Flutter
+- Dart
+- OpenWeather API
+- HTTP package
 
-## Tech Stack
+## Getting Started
 
-* Flutter
-* Dart
+1. Clone this repository.
+2. Open the project folder in VS Code.
+3. Install dependencies:
+
+   ```bash
+   flutter pub get
+   ```
+
+4. Run the app with your OpenWeather API key:
+
+   ```bash
+   flutter run -d chrome --dart-define=OPENWEATHER_API_KEY=YOUR_API_KEY
+   ```
+
+Replace `YOUR_API_KEY` with your own OpenWeather API key.
 
 ## App Screenshot
 
-![Flutter Demo App](ss.png)
-
-## How to Run the Project
-
-1. Clone the repository
-2. Navigate to the project folder
-3. Install dependencies
-
-```
-flutter pub get
-```
-
-4. Run the application
-
-```
-flutter run
-```
-
+![My Weather App](weather_image.png)
 ## Author
 Meena Bist
