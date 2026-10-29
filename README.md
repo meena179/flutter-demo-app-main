@@ -36,4 +36,4 @@ flutter run
 
 ## Author
 
-Hiteshi Dhandare
+Meena Bist
